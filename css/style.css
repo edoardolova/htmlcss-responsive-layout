@@ -96,7 +96,7 @@ main{
 
 }
 
-/* recipe section  */
+/* #region recipe section  */
 .recipe{
     img{
         width: 100%;
@@ -108,39 +108,138 @@ main{
         color: grey;
         font-weight: 400;
         padding: 1rem 0;
+
     }
 
     h2{
         color: #4E3969;
         font-size: 2rem;
         padding-bottom: 2rem;
+        span{
+            display: none;
+        }
     }
 
-    .card-recipe{
-        padding: 2rem;
+    .card{
         background-color: white;
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.129); /* Ombra morbida */
-        
-
-        
-
-        h3{
-            color: black;
-            font-size: 1.5rem;
-            font-weight: 700;
-            margin-bottom: 1.5rem;
-        }
-
-        p{
-            font-size: 1.2rem;
-            margin-bottom: 1rem;
-            span{
-                font-weight: 600;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.129);
+        .card-recipe{
+            padding: 2rem 3rem;
+            h3{
+                color: black;
+                font-size: 1.5rem;
+                font-weight: 700;
+                margin-bottom: 1.5rem;
+                padding: 0;
+            }
+    
+            p{
+                font-size: 1.2rem;
+                margin-bottom: 1rem;
+                span{
+                    font-weight: 600;
+                }
             }
         }
+    }
+}
+/* #endregion recipe section  */
+
+
+
+
+
+
+/*********** RESPONSIVE ************/
+
+/* Modalità Tablet (sopra i 768px) */
+
+@media screen and (min-width:768px){
+    /* header  */
+    .nav{
+        text-align: start;
+        padding: 1rem;
 
     }
+    /* main  */
+    .container{
+        width: 90%;
+        max-width: 900px;
+        margin: auto;
+    }
+    /* #region recipe section  */
+    .recipe{
+        h2{
+            span{
+                display: inline-block;
+            }
+        }
+        .card{
+            .card-recipe{
+                padding: 2rem 3rem;
+                h3{
+                    color: black;
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                    margin-bottom: 1.5rem;
+                    padding: 0;
+                }
+                p{
+                    font-size: 0.9rem;
+                    margin-bottom: 1rem;
+                    span{
+                        font-weight: 600;
+                    }
+                }
+            }
+    }
+    }
 
+
+    /* col md  */
+    .col-1{
+    width: calc(100% / 12 * 2);
+    }
+    .col-md-2{
+        width: calc(100% / 12 * 2);
+    }
+    .col-md-3{
+        width: calc(100% / 12 * 3);
+    }
+    .col-md-4{
+        width: calc(100% / 12 * 4);
+    }
+    .col-md-5{
+        width: calc(100% / 12 * 5);
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-7{
+        width: calc(100% / 12 * 7);
+    }
+    .col-md-8{
+        width: calc(100% / 12 * 8);
+    }
+    .col-md-9{
+        width: calc(100% / 12 * 9);
+    }
+    .col-md-10{
+        width: calc(100% / 12 * 10);
+    }
+    .col-md-11{
+        width: calc(100% / 12 * 11);
+    }
+    .col-md-12{
+        width: 100%;
+    }
+    
 }
+
+/* #endregion recipe section  */
+
+
+
+/* Modalità Desktop(sopra i 992px) */
