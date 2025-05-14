@@ -161,9 +161,19 @@ main{
     .social{
         text-align: center;
         .btn{
-            padding: 0.5rem 0.75rem;
+
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* padding: 1rem;
             background-color: white;
-            border-radius: 35%;
+            border-radius: 50%;
+            i{
+                font-size: 1rem;
+            } */
         }
         a{
             font-size: 1.2rem;
@@ -202,7 +212,7 @@ main{
 }
 /* #endregion banner  */
 
-/* region presentation */
+/* #region presentation */
 .presentation{
     padding-bottom:2rem ;
     h2{
@@ -228,7 +238,7 @@ main{
         }
     }
 }
-/* endregion presentation */
+/* #endregion presentation */
 /* #endregion main  */
 
 
@@ -484,8 +494,8 @@ footer{
         .social{
             text-align: center;
             .btn{
-                padding: 1rem 1rem;
-                background-color: white;
+                width: 150px;
+                height: 50px;
                 border-radius: 25px;
             }
             a{
