@@ -253,6 +253,19 @@ main{
     }
     /* #endregion recipe section  */
 
+    /* #region cta  */
+    .cta{
+        padding: 3rem 0;
+        .social{
+            .btn{
+                padding: 1rem 3.5rem;
+                background-color: white;
+                border-radius: 25px;
+            }
+        }
+    }
+
+    /* #endregion cta  */
 
 
     /* col md  */
