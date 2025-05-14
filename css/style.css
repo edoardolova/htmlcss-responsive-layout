@@ -349,6 +349,45 @@ main{
     /* #endregion recipe section  */
 
 
+    /* #region cta  */
+    .cta{
+        padding: 3rem 0;
+        .d-flex{
+            justify-content: space-between;
+        }
+        .social{
+            text-align: center;
+            .btn{
+                padding: 1rem 1rem;
+                background-color: white;
+                border-radius: 25px;
+            }
+            a{
+                font-size: 1rem;
+                span{
+                    display: inline-block;
+                }
+            }
+            .fa-facebook{
+                color: #1A77F3;
+            }
+            .fa-twitter{
+                color: #009EFF;
+            }
+            .fa-instagram{
+                color: #f781b0;
+            }
+            .fa-pinterest{
+                color: #E63D53;
+            }
+            .fa-youtube{
+                color: #E62538;
+            }
+        }
+    }
+
+    /* #endregion cta  */
+
     /* col lg  */
     .col-lg-1{
     width: calc(100% / 12 * 2);
