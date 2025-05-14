@@ -13,6 +13,10 @@
 
 
 /* #region utils  */
+.d-flex{
+    display: flex;
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -90,7 +94,7 @@ h1{
     color: #FF9614;
 }
 
-/* main  */
+/* #region main  */
 main{
     background-color: var(--giallo-main-bg);
 
@@ -148,6 +152,53 @@ main{
 /* #endregion recipe section  */
 
 
+/* #region cta  */
+.cta{
+    padding: 3rem 0;
+    .d-flex{
+        justify-content: space-between;
+    }
+    .social{
+        text-align: center;
+        .btn{
+            padding: 0.5rem 0.75rem;
+            background-color: white;
+            border-radius: 35%;
+        }
+        a{
+            font-size: 1.2rem;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.129);
+            text-decoration: none;
+            span{
+                color: black;
+                display: none;
+            }
+        }
+        .fa-facebook{
+            color: #1A77F3;
+        }
+        .fa-twitter{
+            color: #009EFF;
+        }
+        .fa-instagram{
+            color: #f781b0;
+        }
+        .fa-pinterest{
+            color: #E63D53;
+        }
+        .fa-youtube{
+            color: #E62538;
+        }
+    }
+}
+
+/* #endregion cta  */
+
+
+
+/* #endregion main  */
 
 
 
@@ -243,8 +294,6 @@ main{
     }
     
 }
-
-
 
 
 /* Modalità Desktop(sopra i 992px) */
