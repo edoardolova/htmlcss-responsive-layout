@@ -4,19 +4,6 @@
     box-sizing: border-box;
 }
 
-/* .nerko-one-regular {
-  font-family: "Nerko One", cursive;
-  font-weight: 400;
-  font-style: normal;
-} */
-
-/* .montserrat-<uniquifier> {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
-
 
 :root{
     --giallo-main-bg: #F6F5F3;
@@ -74,6 +61,21 @@
 }
 /* #endregion utils  */
 
+/* #region general  */
+.container{
+    width: 95%;
+    max-width: 700px;
+    margin: auto;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* #endregion general  */
+
 
 /* header  */
 .nav{
@@ -88,3 +90,57 @@ h1{
     color: #FF9614;
 }
 
+/* main  */
+main{
+    background-color: var(--giallo-main-bg);
+
+}
+
+/* recipe section  */
+.recipe{
+    img{
+        width: 100%;
+        object-fit: contain;
+        display: block;
+    }
+
+    h3{
+        color: grey;
+        font-weight: 400;
+        padding: 1rem 0;
+    }
+
+    h2{
+        color: #4E3969;
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .card-recipe{
+        padding: 2rem;
+        background-color: white;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.129); /* Ombra morbida */
+        
+
+        
+
+        h3{
+            color: black;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+
+        p{
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            span{
+                font-weight: 600;
+            }
+        }
+
+    }
+
+}
