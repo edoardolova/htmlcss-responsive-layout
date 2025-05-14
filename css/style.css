@@ -200,10 +200,35 @@ main{
 .banner{
     display: none;
 }
-
-
 /* #endregion banner  */
 
+/* region presentation */
+.presentation{
+    padding-bottom:2rem ;
+    h2{
+        font-weight: 400;
+        font-size: 2rem;
+
+    }
+
+    hr{
+        width: 20%;
+        color: orange;
+        margin: 2rem 0;
+    }
+    img{
+        max-width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    p{
+        line-height: 2;
+        span{
+            font-weight: 600;
+        }
+    }
+}
+/* endregion presentation */
 
 
 
