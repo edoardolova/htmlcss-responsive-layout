@@ -312,6 +312,36 @@ main{
 
 
 /* #endregion banner  */
+    
+    /* region presentation */
+    .presentation{
+        padding-bottom:2rem ;
+        h2{
+            padding-top: 3rem;
+            font-weight: 500;
+            font-size: 3rem;
+        }
+
+        hr{
+            width: 20%;
+            color: orange;
+            margin: 2rem 0;
+        }
+        img{
+            float: left;
+            padding-top: 0.7rem;
+        }
+        p{
+            font-size: 1.2rem;
+            line-height: 2;
+            span{
+                font-weight: 600;
+            }
+        }
+    }
+    /* endregion presentation */
+
+
     /* col md  */
     .col-md-1{
     width: calc(100% / 12 * 2);
