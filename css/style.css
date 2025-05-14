@@ -196,6 +196,16 @@ main{
 
 /* #endregion cta  */
 
+/* #region banner  */
+.banner{
+    display: none;
+}
+
+
+/* #endregion banner  */
+
+
+
 
 
 /* #endregion main  */
@@ -267,7 +277,16 @@ main{
 
     /* #endregion cta  */
 
+    /* #region banner  */
+    .banner{
+        display: block;
+        img{
+            width: 100%;
+        }
+    }
 
+
+/* #endregion banner  */
     /* col md  */
     .col-md-1{
     width: calc(100% / 12 * 2);
